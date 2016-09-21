@@ -1,0 +1,98 @@
+body{
+	background-color: #F4F0BB;
+}
+/* HEADER + MENU NAVEGACION  */
+.nav li{
+	display: inline-block;
+	margin-top: 2%;
+}
+.nav a{
+	color: #F4F0BB;
+	font-family: 'Open Sans';
+	font-weight: 100;
+}
+.navbar-default .navbar-brand {
+	color: #F4F0BB;
+	font-family: 'Merryweather';
+	font-size: 20px;
+} 
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+	color: #F4F0BB;
+}
+ .navbar-default{
+	background-color: #DA2C38;
+}
+.nav > li > a:hover,
+.nav > li > a:focus{
+	background-color: #7E1A22;
+}
+
+/* SECCION IMAGEN FONDO + BOTON */
+.background-uno{
+	background-image: url(../img/creamy.jpg);
+	background-size: cover;
+	background-position: center 48%;
+	color: #F4F0BB;
+}
+.neg{
+	background-color: rgba(0, 0, 0, 0.7);	
+	padding-bottom: 10%
+}
+.background-uno h1{
+	margin-top: 15%;
+	font-family: 'Merryweather';
+}
+.background-uno h5{
+	font-family: 'Open Sans';
+	font-weight: 100;
+}
+/* OH SO CREAMY */
+.creamy h3{
+	color: #DA2C38;
+	font-family: 'Merryweather';
+}
+.creamy p{
+	color: #DA2C38;
+	font-family: 'Open Sans';
+	font-size: 13px;	
+}
+.creamy{
+	padding: 2% 0;
+}
+/* SECCION ABOUT */
+.background-dos{
+	background-color: #DA2C38;
+}
+.txt{
+	color: #F4F0BB;
+}
+.txt h2{
+	font-family: 'Merryweather';
+	padding-top: 5%;
+}
+.txt p{
+	font-family: 'Open Sans';
+	font-size: 13px;
+	padding-bottom: 5%;
+}
+/* SECCION ICONOS */
+.icon-desktop, .icon-tag, .icon-heart{
+	font-size: 80px;
+}
+.icono{
+	color: #DA2C38;
+	font-family: 'Merryweather';
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+.icono p{
+	font-family: 'Open Sans';
+	font-size: 12px;
+}
+/* FOOTER */
+.footer{
+	color: #F4F0BB;
+	font-family: 'Merryweather';
+	padding: 1% 0;
+}
